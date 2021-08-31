@@ -733,6 +733,12 @@ RSpec/Capybara/FeatureMethods:
   VersionChanged: '2.0'
   StyleGuide: https://www.rubydoc.info/gems/rubocop-rspec/RuboCop/Cop/RSpec/Capybara/FeatureMethods
 
+RSpec/Capybara/HasCssMatcher:
+  Description: Check for has_css? calls in an or expression.
+  Enabled: true
+  VersionAdded: 2.5.0
+  StyleGuide: https://www.rubydoc.info/gems/rubocop-rspec/RuboCop/Cop/RSpec/Capybara/HasCssMatcher
+
 RSpec/Capybara/VisibilityMatcher:
   Description: Checks for boolean visibility in capybara finders.
   Enabled: true
